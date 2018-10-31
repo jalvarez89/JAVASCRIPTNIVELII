@@ -1,0 +1,116 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+}
+header{
+	height:20px;
+	background:black;
+	padding:50px;
+	position:fixed;
+	z-index:1;
+	width:95%;
+}
+header nav{
+	float:right;
+
+}
+figure{
+	width:200px;
+	float:left;
+}
+nav{
+	margin-top:20px;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-size:15px;
+}
+nav li{
+	display:inline-block;
+	background-color:orange;
+	padding:10px;
+	border-radius:15px;
+}
+nav li:hover{
+	background-color:white;
+}
+nav li:hover ul{
+	display:block;
+}
+nav li ul{
+	position:absolute;
+	display:none;
+}
+nav li ul li{
+	margin-top:10px;
+	display:block;
+}
+#banner{
+	height:400px;
+	background:grey;
+}
+#banner h1{
+	color:white;
+	font-size:70px;
+	text-align:center;
+	border-width:10px;
+	border-style:solid;
+	position:relative;
+	top:120px;
+	left:0px;
+}
+#galeria{
+	width:70%;
+	background:orange;
+	float:left;
+}
+article{
+	width:42%;
+	float:left;
+	border: 1px solid black;
+	margin: 20px;
+	padding: 10px;
+	height:300px;
+	overflow:auto;
+}
+article img{
+	width:200px;
+	float:right;
+}
+.imagen-fija{
+	position:relative;
+	top:0;
+}
+.imagen-oculta{
+	visibility:visible;
+}
+aside{
+	height:700px;
+	width:30%;
+	background:white;
+	float:right;
+}
+footer{
+	height:70px;
+	text-align:center;
+	background-color:black;
+	color:white;
+	clear:both;
+}
+input{
+	width:200px;
+	height:25px;
+	border:5px ridge white;
+	float:left;
+	position:relative;
+	top:15px;
+}
+button{
+	padding:9px;
+	margin-left:5px;
+	float:left;
+	position:relative;
+	top:15px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 Y CSS3 NIVEL II</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script src="clase1_2.js"></script>
+</head>
+<body>
+	<header>
+		<figure>
+			<img src="img/logo.png" alt="Logo" title="Logo">
+		</figure>
+		<form>
+			<input type="text" name="Busqueda" placeholder="&#128270; Ingrese la Busqueda">
+			<input type="button" onclick="modificarBanner()" name="buscar" onclick=mostrarNav()>
+		</form>
+		<nav id="nav">
+			<ul>
+				<li><a href="#" id="text1" onclick="modificarTexto()">Inicio</a></li>
+				<li>
+					<a href="#">Servicios</a>
+					<ul>
+						<li>Cursos</li>
+						<li>Alquiler de Salones</li>
+						<li>Asesorias</li>
+					</ul>
+				</li>
+				<li><a href="#">Quienes Somos</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="banner">
+		<h1>CADI F1</h1>
+	</section>
+	<section id="galeria">
+		<article id="art1">
+			<img src="img/imagen01.jpg" class="imagen-fija">
+			<h2>Imagen1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+		<article>
+			<img src="img/imagen02.jpg" class="imagen-oculta">
+			<h2>Imagen 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+		<article>
+			<img src="img/imagen03.jpg">
+			<h2>Imagen 3</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+		<article>
+			<img src="img/imagen04.jpg">
+			<h2>Imagen 4</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+	</section>
+	<aside></aside>
+	<footer>
+		<p>Todos los derechos reservados para CADI F1</p>
+	</footer>
+</body>
+</html>

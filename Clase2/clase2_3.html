@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clase 2-3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main3.js"></script>
+    <script src="lib_validaciones.js"></script>
+</head>
+<body>
+    <h2>Buscar</h2>
+        <form name="form2" action="http://google.com/search">
+            <input type="text" name="q" onkeydown="return validar_numero(event)"/>
+            <input type="button" onclick="validarBusqueda()" value="Buscar"/>
+        </form>
+    <h2>Iniciar Sesion</h2>
+    <form name="form1" action="" onsubmit="return validarIniciar()">
+        <input type="text" id="idnombre" name="nombre" onfocus="convertirMinusculas('idnombre')" placeholder="Nombre" onblur="convertirMayusculas('idnombre')"/><br>
+        <input type="text" id="usuario" name="usuario" onfocus="convertirMinusculas('usuario')" placeholder="Usuario" onblur="convertirMayusculas('usuario')"/><br>
+        <input type="password" name="clave" placeholder="Clave"/><br>
+        <input type="submit" name="iniciar" value="Iniciar Sesion"/>
+    </form>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Seccion 2729</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <a href="#" onclick="cambiarTitulo()">Cambiar</a>
+    <a href="#" onclick="cambiarColor()">Color</a>
+    <a href="#" onclick="crearNuevoContenido()">Nuevo</a>
+    <a href="#" onclick="agregarContenido()">Agregar</a>
+    <script>
+        function crearNuevoContenido(){
+            window.document.writeln("Esto es Nuevo");
+            window.document.close();
+        }
+        function agregarContenido(){
+            window.document.body.innerHTML+="<p>Esta se Agrega al Final</p>"+"<a href='#'>Prueba</a>"+"<img src='asdfa.jpg' width='250'/>";
+        }
+        function cambiarTitulo(){
+            let titulo=prompt("Introduzca el titulo:");
+            window.document.title=titulo;
+        }
+        function cambiarColor(){
+            let color=prompt("Introduza el Color:");
+            window.document.bgColor=color;
+        }
+    </script>
+</body>
+</html>

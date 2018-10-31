@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clase 1-3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="clase1_3.js"></script>
+</head>
+<body>
+    <h1>Datos</h1>
+    <form name="f1">
+        Precio <br>
+        <input type="text" name="precio"/><br>
+        Cantidad<br>
+        <input type="text" name="cantidad"/><br>
+        Sub Total<br>
+        <input type="text" name="subtotal"/><br><br>
+        <input type="button" value="Procesar" onclick=calcular() />
+        <input type="button" value="Agregar" onclick=agregar() />
+    </form>
+    <div id="resultados">
+        <h1>Resultados</h1>
+    </div>
+    <p id="resumen">0 Productos Procesados</p>
+</body>
+</html>
